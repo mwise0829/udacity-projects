@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+/* Style the body */
+body {
+  font-family: Tahoma, sans-serif;
+  margin: 0;
+  font-size: 16px;
+  background-color: #dddddd8e;
+}
+
+.header {
+    background-color: #ffb6c1;
+    background-repeat: no-repeat;
+    padding: 80px;
+    text-align: center;
+    color: #fff;
+  }
+
+  h1 {
+    font-size: 40px;
+    color: #fff;
+  }
+
+  .hero-image {
+    background-image: url("H:\My Picturessoftbackground.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .sidenav {
+    text-align: center;
+    display: block;
+    position: relative;
+  }
+  
+  .sidenav a {
+    color: #ccc;
+    padding: 16px;
+    border-right: 10px solid #b8edff;
+    background-color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    
+  }
+  
+  .sidenav a:hover {
+    color: rgb(73, 69, 69);
+    border-right: 10px solid #fff;
+    background-color: #e6fff9;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 200px;
+    grid-gap: 25px;
+    padding: 15px;
+  }
+
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
