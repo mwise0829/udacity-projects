@@ -57,3 +57,15 @@
       font-size: 25px;
       margin-right: 5px;
   }
+
+
+  /*container on smaller screens*/
+@media (max-width: 700px) {
+  .w3-twothird {
+    width: 90% !important;
+  }
+
+  .w3-half {
+    width: 75%;
+  }
+}
