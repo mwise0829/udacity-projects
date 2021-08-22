@@ -60,7 +60,7 @@
 
 
   /*container on smaller screens*/
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .w3-twothird {
     width: 90% !important;
   }
