@@ -4,13 +4,13 @@
   
   body {
     font-family: 'Courier New', monospace !important;
-    background: linear-gradient(to bottom, #588c7e 15%, #efefef 40%);
   }
   
   /* header */
   .header {
     text-align: center;
     font-size: 35px;
+    background-color: #588c7e;
   }
 
   h1 {
