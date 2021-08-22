@@ -7,30 +7,6 @@ body {
   background: linear-gradient(to bottom, #588c7e 15%, #efefef 40%);
 }
 
-
-/* top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #588c7e;
-}
-
-/* topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 30px 0px;
-  text-decoration: none;
-  margin-left: 5%;
-}
-
-/* on hover */
-.topnav a:hover {
-   color: #f2ae72;
-}
-
-
 /* header */
 .header {
   grid-area: header;
