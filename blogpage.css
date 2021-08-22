@@ -40,6 +40,7 @@
 
   p {
       text-align: justify;
+      word-spacing: normal;
        }
 
   .intro {
@@ -53,7 +54,7 @@
       margin-left: 20%;
   }
 
-  .w3-half {
+  .w3-card.w3-round.w3-padding.w3-margin.w3-display-container {
       border-top: 5px solid #d96459;
       width: 75% !important;
       background-color: #fff !important;
