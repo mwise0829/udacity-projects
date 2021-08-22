@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Courier New', monospace !important;
-  background: linear-gradient(to bottom, #588c7e 30%, #efefef 65%);
+  background: linear-gradient(to bottom, #588c7e 15%, #efefef 40%);
 }
 
 
@@ -34,7 +34,6 @@ body {
 /* header */
 .header {
   grid-area: header;
-  padding: 10px;
   text-align: center;
   font-size: 35px;
 }
@@ -58,6 +57,22 @@ h2 {
   color: #fff;
 }
 
+h3 {
+  font-weight: 200 !important;
+  font-size: 30px !important;
+  font-family: 'Courier New', monospace !important;
+  color: #000; 
+  margin: 0 !important;
+}
+
+h4 {
+  font-weight: 200 !important;
+  font-size: 20px !important;
+  font-family: 'Courier New', monospace !important;
+  color: #000; 
+  margin: 0 !important;
+}
+
 /*container */
 .grid-container {
   display: grid;
@@ -73,7 +88,7 @@ h2 {
 .right {
   padding: 10px;
   margin: 10px;
-}
+ }
 
 /* left column */
 .left {
@@ -93,6 +108,8 @@ h2 {
   background-position: right;
   background-size: 200px 200px;
   background-origin: content-box;
+  border-top: 5px solid #d96459;
+  
 }
 
 .about {
@@ -131,7 +148,8 @@ h2 {
 
 .fa {
   font-size: 30px;
-  margin: 5px 10px;
+  margin: 0;
+  padding-right: 5px;
   color: #d96459;
 }
 
@@ -143,7 +161,8 @@ h2 {
 .fatext {
   font-size: 18px;
   color: #d96459;
-  margin: 5px 10px;
+  margin: 0;
+  padding-right: 5px;
 }
 
 ul {
@@ -161,4 +180,5 @@ li {
 
 .w3-twothird {
   margin: 15px 0;
+  border-top: 5px solid #d96459;
 }
