@@ -8,11 +8,11 @@
   }
 
   .w3-card.w3-round.w3-center.w3-padding.w3-display-container {
-    border: 2px dashed lightslategray;
+    border: 2px dashed #d96459;
     border-radius: 4px;
     width: 75%;
     margin: auto;
-    background-color: #dddddd75;
+    background-color: #f2e394;
 }
   
   /* header */
