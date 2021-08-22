@@ -6,6 +6,13 @@
     font-family: 'Courier New', monospace !important;
     background-color: #588c7e;
   }
+
+  .w3-card.w3-round.w3-white.w3-center.w3-padding.w3-display-container {
+    border: 2px dashed lightslategray;
+    border-radius: 4px;
+    width: 75%;
+    margin: auto;
+}
   
   /* header */
   .header {
