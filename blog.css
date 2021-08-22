@@ -60,6 +60,18 @@ h4 {
     grid-row-gap: 10px;
 } 
 
+/*container on smaller screens*/
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left left left left left' 
+  
+      'right right right right right right' 
+      'footer footer footer footer footer footer';
+  }
+}
+
 .left,
 .right {
   padding: 10px;
