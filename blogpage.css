@@ -1,75 +1,74 @@
 * {
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: 'Courier New', monospace !important;
     background-color: #588c7e;
-  }
+}
 
-  .w3-card.w3-round.w3-center.w3-padding.w3-display-container {
+.w3-card.w3-round.w3-center.w3-padding.w3-display-container {
     border: 2px dashed #d96459;
     border-radius: 4px;
     width: 75%;
     margin: auto;
     background-color: #f2e394;
 }
-  
-  /* header */
-  .header {
+
+
+/* header */
+
+.header {
     text-align: center;
     font-size: 35px;
-    
-  }
+}
 
-  h1 {
+h1 {
     font-weight: bold !important;
     font-size: 40px;
     font-family: 'Courier New', monospace !important;
     color: #fff;
-  }
+}
 
-  h2 {
+h2 {
     font-weight: bold !important;
     font-size: 30px;
     font-family: 'Courier New', monospace !important;
     color: #000;
     font-weight: bold;
     text-align: center;
-  }
+}
 
-  p {
-      text-align: justify;
-      word-spacing: normal;
-       }
+p {
+    text-align: justify;
+    word-spacing: normal;
+}
 
-  .intro {
-      text-align: center;
-      width: 60%;
-      margin: auto;
-      color: #000;
-  }     
+.intro {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    color: #000;
+}
 
-  .reply {
-      margin-left: 50px;
-  }
+.reply {
+    margin-left: 50px;
+}
 
-  .w3-card.w3-round.w3-padding.w3-margin.w3-display-container {
-      border-top: 5px solid #d96459;
-      width: 75% !important;
-      background-color: #fff !important;
-  }
+.w3-card.w3-round.w3-padding.w3-margin.w3-display-container {
+    border-top: 5px solid #d96459;
+    width: 75% !important;
+    background-color: #fff !important;
+}
 
-  .w3-twothird {
+.w3-twothird {
     border-top: 5px solid #588c7e;
     width: 90% !important;
     background-color: #fff !important;
-  }
+}
 
-  .fa {
-      color: #d96459;
-      font-size: 25px;
-      margin-right: 5px;
-  }
-
-
+.fa {
+    color: #d96459;
+    font-size: 25px;
+    margin-right: 5px;
+}
