@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Courier New', monospace !important;
+    background: linear-gradient(to bottom, #588c7e 15%, #efefef 40%);
+  }
+  
+  /* header */
+  .header {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  h1 {
+    font-weight: bold !important;
+    font-size: 40px;
+    font-family: 'Courier New', monospace !important;
+    color: #fff;
+  }
