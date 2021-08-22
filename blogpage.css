@@ -41,7 +41,7 @@ h2 {
 
 p {
     text-align: justify;
-    word-spacing: normal;
+    word-spacing: -4px;
 }
 
 .intro {
@@ -52,7 +52,7 @@ p {
 }
 
 .reply {
-    margin-left: 50px;
+    display: contents;
 }
 
 .w3-card.w3-round.w3-padding.w3-margin.w3-display-container {
