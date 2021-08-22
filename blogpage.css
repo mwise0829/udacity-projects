@@ -54,10 +54,14 @@
 
   .w3-half {
       border-top: 5px solid #d96459;
+      width: 75% !important;
+      background-color: #fff !important;
   }
 
   .w3-twothird {
     border-top: 5px solid #588c7e;
+    width: 90% !important;
+    background-color: #fff !important;
   }
 
   .fa {
@@ -67,13 +71,3 @@
   }
 
 
-  /*container on smaller screens*/
-@media (max-width: 600px) {
-  .w3-twothird {
-    width: 90% !important;
-  }
-
-  .w3-half {
-    width: 75%;
-  }
-}
