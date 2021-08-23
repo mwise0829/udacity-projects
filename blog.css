@@ -63,7 +63,7 @@ h4 {
 } 
 
 /*container on smaller screens*/
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .grid-container  {
     grid-template-areas: 
       'header header header header header header' 
