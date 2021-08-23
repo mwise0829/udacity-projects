@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Courier New', monospace !important;
-    background-color: #f2e394;
+    background: linear-gradient(to bottom, #588c7e 15%, #efefef 40%);
 }
 
 
