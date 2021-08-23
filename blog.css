@@ -57,7 +57,9 @@ h4 {
     'left left right right right right' 
   
       'footer footer footer footer footer footer';
-    grid-row-gap: 10px;
+    grid-row-gap: 25px;
+    width: 75%;
+    margin: auto;
 } 
 
 /*container on smaller screens*/
@@ -86,6 +88,7 @@ h4 {
 /* right column */
 .right {
   grid-area: right;
+  width: 75%;
 }
 
 .middle {
