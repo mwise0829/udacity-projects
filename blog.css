@@ -54,7 +54,7 @@ h4 {
   display: grid;
   grid-template-areas: 
     'header header header header header header' 
-    'left left right right right right' 
+    'left left left left right right' 
   
       'footer footer footer footer footer footer';
     grid-row-gap: 25px;
