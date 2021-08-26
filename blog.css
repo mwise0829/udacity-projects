@@ -1,175 +1,171 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Courier New', monospace !important;
-  background: linear-gradient(to bottom, #588c7e 15%, #efefef 40%);
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    background: linear-gradient(to bottom, #588c7e 15%, #f2e29446 40%);
+    background-repeat: no-repeat;
 }
 
-/* header */
-.header {
-  grid-area: header;
-  text-align: center;
-  font-size: 35px;
+.header { 
+    grid-area: header; 
+   text-align: center;
 }
 
-.headimg {
-  position: relative;
-  width: 200px;
+.left {
+     grid-area: left;  
+ 
 }
+
+.middle { 
+    grid-area: middle;
+   
+}
+
+.right { 
+    grid-area: right;
+    text-align: center;
+   
+}
+
+.footer { 
+    grid-area: footer; 
+    background-color: #588c7e;
+    margin: 25px 0 0 0;
+    height: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'left left left left left left'
+  'header header header header header header' 
+  'right right middle middle middle middle' 
+  'footer footer footer footer footer footer';
+  grid-column-gap: 25px;
+}
+
+
 
 h1 {
-  font-weight: bold !important;
-  font-size: 40px;
-  font-family: 'Courier New', monospace !important;
-  color: #fff;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    margin: 5px;
 }
 
 h2 {
-  font-weight: 200 !important;
-  font-size: 20px !important;
-  font-family: 'Courier New', monospace !important;
-  color: #fff;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    font-weight: lighter;
+    margin: 5px;
 }
 
 h3 {
-  font-weight: 200 !important;
-  font-size: 30px !important;
-  font-family: 'Courier New', monospace !important;
-  color: #000; 
-  margin: 0 !important;
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
 }
 
 h4 {
-  font-weight: 200 !important;
-  font-size: 20px !important;
-  font-family: 'Courier New', monospace !important;
-  color: #000; 
-  margin: 0 !important;
-}
-
-/*container */
-.grid-container {
-  display: grid;
-  grid-template-areas: 
-    'header header header header header header' 
-    'left left left left right right' 
-  
-      'footer footer footer footer footer footer';
-    grid-row-gap: 25px;
-    width: 75%;
-    margin: auto;
-} 
-
-/*container on smaller screens*/
-@media (max-width: 900px) {
-  .grid-container  {
-    grid-template-areas: 
-      'header header header header header header' 
-      'left left left left left left' 
-  
-      'right right right right right right' 
-      'footer footer footer footer footer footer';
-  }
-}
-
-.left,
-.right {
-  padding: 10px;
-  margin: 10px;
- }
-
-/* left column */
-.left {
-  grid-area: left;
-}
-
-/* right column */
-.right {
-  grid-area: right;
-  width: 75%;
-}
-
-.middle {
-  width: 90%;
-  margin: auto;
-  background-image: url(images/dogandgirl.jpg);
-  background-repeat: no-repeat !important;
-  background-position: right;
-  background-size: 200px 200px;
-  background-origin: content-box;
-  border-top: 5px solid #d96459;
-  
-}
-
-.about {
-  width: 60%;
-}
-
-.dog {
-  max-width: 250px;
-}
-/* footer */
-.footer {
-  grid-area: footer;
-  background-color: #588c7e;
-  padding: 10px;
-  text-align: center;
-  color: #fff;
-}
-
-/*W3.CSS code override*/
-
-.w3-button {
-  background-color: #d96459 !important;
-  color: #fff !important;
-}
-
-.w3-row-padding {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-content: center;
-}
-
-/*icon styling*/
-
-.fa {
-  font-size: 30px;
-  margin: 0;
-  padding-right: 5px;
-  color: #d96459;
-}
-
-.fa:hover, .fatext:hover {
-  color: #588c7e;
-  cursor: pointer;
-}
-
-.fatext {
-  font-size: 18px;
-  color: #d96459;
-  margin: 0;
-  padding-right: 5px;
+    font-size: 20px;
+    text-align: center;
 }
 
 ul {
-  list-style: disc;
-  color: #d96459;
+    text-align: left;
+    list-style: circle;
+    list-style-position: inside;
+    margin: auto;
 }
 
-li {
-  color: #000;
+p, li {
+   font-size: 16px;
 }
 
-.w3-card:hover {
-  cursor: pointer;
+
+.left > a {
+    text-align: center;
+    color: #fff;
+    background-color: #d96459;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 20px;
 }
 
-.w3-twothird {
-  margin: 15px 0;
-  border-top: 5px solid #d96459;
+.left > a:hover {
+    color: #d96459;
+    background-color: #fff;
+    border: 1px solid #d96459;
+    
+}
+
+.headimg {
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.post {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top: 5px solid #d96459;
+    margin: 12px;
+    padding: 16px;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 70%;
+    margin: auto;
+}
+
+.date {
+    font-size: 14px;
+}
+
+.more {
+    text-align: right;
+    margin-right: 5px;
+}
+
+.more > a {
+    color: #d96459;
+    font-size: 16px;
+}
+
+.fad {
+    text-align: right;
+    color: #f2e394;
+    margin-right: 12px;
+    margin-top: 0px;
+}
+
+.fad:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.fa {
+    text-align: center;
+    color: #d96459;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    color: #588c7e;
+    cursor: pointer;
+}
+
+.rightside {
+    text-align: right;
+}
+
+.reply {
+    color: #d96459;
+    font-size: 16px;
+}
+
+.reply:hover {
+    color: #588c7e;
+    cursor: pointer;
 }
