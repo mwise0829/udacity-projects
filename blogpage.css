@@ -74,8 +74,8 @@ p {
     color: #000;
 }
 
-.fa {
-    color: #d96459;
+.fa:hover {
+    color: #fff;
     font-size: 25px;
     margin-right: 5px;
 }
