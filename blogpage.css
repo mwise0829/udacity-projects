@@ -75,7 +75,7 @@ p {
 }
 
 .fa:hover {
-    color: #fff;
+    color: #fff !important;
     font-size: 25px;
     margin-right: 5px;
 }
