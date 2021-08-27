@@ -1,10 +1,6 @@
-@import url("blog.css");
 @import url("nav.css");
-
-
 * {
     box-sizing: border-box;
-
 }
 
 body {
@@ -37,17 +33,15 @@ body {
 }
 
 h1 {
-   
     font-weight: bold;
-   }
-
+}
 
 p {
     text-align: justify;
     width: 60%;
     margin: auto;
     padding: 12px 0;
-    }
+}
 
 .intro {
     text-align: center;
@@ -66,7 +60,6 @@ p {
     color: #588c7e;
     cursor: pointer;
 }
-
 
 .post {
     border-top: 5px solid #588c7e;
@@ -122,7 +115,7 @@ p {
     text-align: center
 }
 
-.button  {
+.button {
     text-align: center;
     color: #d96459;
     background-color: #fff;
