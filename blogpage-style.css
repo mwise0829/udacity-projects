@@ -1,0 +1,143 @@
+@import url("blog.css");
+@import url("nav.css");
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background: linear-gradient(to bottom, #588c7e 15%, #f2e29446 40%);
+    background-repeat: no-repeat;
+}
+
+
+/* header */
+
+.header {
+    text-align: center;
+    font-size: 35px;
+}
+
+.everest {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.social {
+    display: grid;
+    justify-content: center;
+    align-items: stretch;
+    justify-items: center;
+}
+
+h1 {
+   
+    font-weight: bold;
+   }
+
+
+p {
+    text-align: justify;
+    width: 60%;
+    margin: auto;
+    padding: 12px 0;
+    }
+
+.intro {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    color: #fff;
+    font-size: 16px;
+}
+
+.reply {
+    color: #d96459;
+    font-size: 16px;
+}
+
+.reply:hover {
+    color: #588c7e;
+    cursor: pointer;
+}
+
+
+.post {
+    border-top: 5px solid #588c7e;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 12px;
+    padding: 16px;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 70%;
+    margin: auto;
+    color: #000;
+}
+
+.fa {
+    color: #d96459;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.footer {
+    background-color: #588c7e;
+    margin: 25px 0 0 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top: 5px solid #d96459;
+    margin: 12px;
+    padding: 16px;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 70%;
+    margin: auto;
+    color: #000;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.column {
+    width: 50%;
+}
+
+.buttons {
+    text-align: center
+}
+
+.button  {
+    text-align: center;
+    color: #d96459;
+    background-color: #fff;
+    border: 1px solid #d96459;
+    text-decoration: none;
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #d96459;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
